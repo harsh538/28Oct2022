@@ -39,8 +39,11 @@ public class EmployeeServiceImpl implements EmployeeService {
 	}
 
 	public List<EmployeeBean> getEmployeeList() throws Exception {
+		System.out.println("checking");
 
 		return employeeDAOWrapperImpl.getEmployeeList();
+		
+		
 	}
 
 }
